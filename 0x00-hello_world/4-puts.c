@@ -1,12 +1,15 @@
 #include <stdio.h>
-
 /**
  *
- * * main - Printing
+ * * main - print the string in the put function
  *
  * *
  *
- * * Return: Always 0 (Successful)
+ * * Description: using the main function
+ *
+ * * this program prints "Programming is like building a multilingual puzzle
+ *
+ * * Return: 0
  *
  * */
 
@@ -14,9 +17,8 @@ int main(void)
 
 {
 
-	puts("\"Programming is like building a multilingual
+		puts("\"Programming is like building a multilingual puzzle");
 
-			puzzle");
+			return (0);
 
-	return (0);
 }
